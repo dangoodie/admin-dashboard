@@ -8,8 +8,9 @@ ul {
   list-style-type: none;
 }
 
+/* testing styles */
+
 .header,
-.sidebar,
 .nav,
 .main {
   border: 2px solid blue;
@@ -25,7 +26,7 @@ ul {
 
 .container {
   display: grid;
-  grid-template-columns: minmax(200px, 1fr) 5fr;
+  grid-template-columns: minmax(250px, 1fr) 5fr;
   grid-template-rows: auto 1fr;
   height: 100vh;
 }
@@ -73,10 +74,14 @@ ul {
   grid-column: 1 / 2;
   grid-row: 1 / 3;
   padding: 15px;
+  color: #94a3b8;
+  background-color: #0f172a;
 }
 
 .logo {
   margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .menu > ul {
@@ -90,6 +95,13 @@ ul {
 .top-menu > li,
 .bottom-menu > li {
   margin-bottom: 15px;
+}
+
+.top-menu > li > a,
+.bottom-menu > li > a {
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 1.2rem;
 }
 
 /* Main area display stuff */
