@@ -43,6 +43,25 @@ ul {
 
 .header-top > input[type="search"] {
   flex: 1;
+  background-color: #cbd5e1;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: inset 5px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-top > input[type="search"]::placeholder {
+  color: black;
+}
+
+.header-top > input[type="search"]:focus {
+  outline: none;
+}
+
+input::-webkit-search-cancel-button {
+ -webkit-appearance: none;
+ /* content: URL(); Add a custom SVG in here to style the search bar */
+ cursor: pointer;
 }
 
 .header-main {
@@ -114,6 +133,16 @@ ul {
   font-size: 1.2rem;
 }
 
+.top-menu > li > a:hover,
+.bottom-menu > li > a:hover {
+  color: #cbd5e1;
+}
+
+.top-menu > li > a:focus,
+.bottom-menu > li > a:focus {
+  color: white;
+}
+
 /* Main area display stuff */
 
 .main {
@@ -149,7 +178,7 @@ ul {
 .title {
   margin-top: 0;
   font-size: 1.2rem;
-  
+  font-style: italic;
 }
 
 /* Social stuff */
