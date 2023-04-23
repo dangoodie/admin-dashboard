@@ -46,6 +46,12 @@ ul {
   gap: 15px;
 }
 
+.search-icon,
+.alarm-icon {
+  font-size: 2rem;
+  color: #0f172a;
+}
+
 .header-top > input[type="search"] {
   flex: 1;
   background-color: #cbd5e1;
@@ -97,6 +103,12 @@ input::-webkit-search-cancel-button {
 
 .header-main > .button:focus {
   background-color: #334155;
+}
+
+.profile-name {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .greeting {
